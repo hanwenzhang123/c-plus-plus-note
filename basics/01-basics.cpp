@@ -1,10 +1,14 @@
 //hello world
+#include <iostream>
+using namespace std;
 
-
+int main(){
+  cout<<'Hello World'<<endl;
+  return 0;
+}
 
 
 /* this program reads two integers from the user and prints their sum */
-
 #include <iostream>
 using namespace std;
 
@@ -16,7 +20,7 @@ int main()
   
   //cout is output is then endl is end line, break the line
   cout <<'please enter two numbers separated by a sace:'<<endl; //in one line is fine because the compiler knows the ;
-  cin>>num1>>num2;          //cin is getting the input from the user
+  cin>>num1>>num2;       //cin is getting the input from the user, we can also seperate it into 2 segments with ; like cin>>num1; cin>>num2;
 
   sum = num1 + num2;
   
