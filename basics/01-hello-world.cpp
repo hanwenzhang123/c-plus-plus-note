@@ -19,12 +19,12 @@ int main()
   int sum;    //will hold the sum
   
   //cout is output is then endl is end line, break the line
-  cout <<'please enter two numbers separated by a space:'<<endl; //in one line is fine because the compiler knows the ;
+  cout <<"please enter two numbers separated by a space:"<<endl; //in one line is fine because the compiler knows the ;
   cin>>num1>>num2;       //cin is getting the input from the user, we can also seperate it into 2 segments with ; like cin>>num1; cin>>num2;
 
   sum = num1 + num2;
   
-  cout<<num1<<' + '<<num2<<' = '<<sum<<endl;
+  cout<<num1<<" + "<<num2<<" = "<<sum<<endl;
   
   return 0; //program ended with the exit code: 0
 }
