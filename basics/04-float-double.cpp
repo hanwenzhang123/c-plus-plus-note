@@ -37,12 +37,19 @@ let c be a circle with a radius of length r.
 #include <iostream>
 using namespace std;
 
+const double PI = 3.14;
 int main() {
   double radius, area;
   
-  cout <<"please enter the radius:"<<endl;
+  cout <<"please enter the radius: "<<endl;
   cin>>daysTraveled;
   
-  area = 3.14 * (radius*radius)
+  area = PI * (radius*radius);
+  
+  cout<<"the area of a circle with radius of "<<radius<<" is "<<area<<endl;
+  
+  return 0;
+}
+
   
   
