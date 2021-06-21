@@ -40,7 +40,7 @@ using namespace std;
 int main() {
   double radius, area;
   
-  cout <<"please enter the radius: "<<endl;
+  cout<<"please enter the radius: "<<endl;
   cin>>daysTraveled;
   
   area = M_PI * (radius*radius);    //from the cmath library
