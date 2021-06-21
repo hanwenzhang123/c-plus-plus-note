@@ -52,13 +52,13 @@ int main() {
   int daysTraveled;
   int fullWeeks, remainingDays;
   
-  cout <<'please enter two numbers separated by a sace:'<<endl;
+  cout <<"please enter the total days:"<<endl;
   cin>>daysTraveled;
   
   fullWeeks = daysTraveled / DAYS_IN_A_WEEK;
   remainingDays = daysTraveled % DAYS_IN_A_WEEK;  
   
-  cout<<daysTraveled<<' days are '<<fullWeeks<<' weeks and '<<remainingDays<<' days.'<<endl;
+  cout<<daysTraveled<<" days are "<<fullWeeks<<" weeks and "<<remainingDays<<" days."<<endl;
   
   return 0;
 }
