@@ -23,7 +23,6 @@ int main() {
 }
 
 
-
 Area of a Circle
 example: 
 please enter the radius: 2.6
@@ -34,22 +33,20 @@ let c be a circle with a radius of length r.
   we have (Area of c) = pie * r to the second power
   
 
-#include <iostream>
+#include <iostream>   //extension
+#include <cmath>
 using namespace std;
 
-const double PI = 3.14;
 int main() {
   double radius, area;
   
   cout <<"please enter the radius: "<<endl;
   cin>>daysTraveled;
   
-  area = PI * (radius*radius);
+  area = M_PI * (radius*radius);    //from the cmath library
   
   cout<<"the area of a circle with radius of "<<radius<<" is "<<area<<endl;
   
   return 0;
 }
-
-  
-  
+      
