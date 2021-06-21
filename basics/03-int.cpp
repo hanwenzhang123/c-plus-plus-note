@@ -1,5 +1,5 @@
 The int Data Type
-kind of data: integer numbers
+kind of data: integer numbers - whole number
 inner representation: 
   - each int data use 4 bytes (32 bits)
   - the numbers are represented using the 2/' complement method
