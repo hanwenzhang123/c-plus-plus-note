@@ -68,3 +68,17 @@ int main() {
 
   return 0;
 }
+
+
+Boolean Interpretation
+
+int main(){
+  int val = 0;
+  
+  if(val = 0)
+    cout<<"val is 0."<<endl;
+  else
+    cout<<"val is not 0."<<endl;
+  
+  return 0;
+}
