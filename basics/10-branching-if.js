@@ -1,4 +1,5 @@
 syntax and semantics
+
 if(condition)   //no semicolon
 
   
@@ -27,3 +28,4 @@ int main() {
   
   return 0;
 }
+   
