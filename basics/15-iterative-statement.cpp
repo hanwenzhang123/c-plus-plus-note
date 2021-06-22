@@ -54,7 +54,7 @@ int main() {
   cout<<"Please enter students' grades (separate by a space)"<<endl;
   
   sum = 0
-  for(count =1; count<= numOfStudents ; count++) {
+  for(count =1; count<= numOfStudents ; count++) {    //when we knoe the number of iterations we want to do, then we choose a for loop
     cin>>curr;
     sum += curr;
   }
@@ -80,11 +80,31 @@ the class average is 79.75
 using namespace std;
 
 int main() {
-  int numOfStudents;
-  int count;
-  int curr, sum;
+  bool seenEndOfInput;
+  int sum, numOfStudents;
+  int curr;
   double average;
   
+  cout<<"Enter the grades separated by a space"<<endl;
+  cout<<"End the sequence by typing -1: "<<endl;
   
-    return 0;
+  sum = 0;
+  numOfStudents = 0;
+  
+  seenEndOfInput = false; 
+  while(seenEndOfInput == false) {    //when we do not know how many iterations we are going to have, while loop is a better choice. 
+    cin>>curr;
+    if (curr == -1) {
+      seenEndOfInput = true;
+    } else {
+      sum += curr;
+      numOfStudents++;
+    }
+  } 
+  
+  average = (double)sum / (double)numOfStudents;
+  cout<<"The class average is "<<average<<endl;
+  return 0;
 }
+
+  
