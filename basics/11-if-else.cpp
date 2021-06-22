@@ -46,3 +46,25 @@ int main() {
 
   return 0;
 }
+
+
+Sequence of if vs if-else
+
+#include <iostream> 
+using namespace std;
+
+int main() {
+  int userInput;
+  
+  out<<"Please enter a positive integer: "<<endl;
+  cin>>userInput;
+  
+  if(userInput % 2 == 0){
+    cout<<userInput<<" is even"<<endl;
+  }
+  if(userInput % 2 == 1){       //this works but the if-else statement is a better practice
+    cout<<userInput<<" is odd"<<endl;
+  }
+
+  return 0;
+}
