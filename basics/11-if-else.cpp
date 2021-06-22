@@ -75,7 +75,7 @@ Boolean Interpretation
 int main(){
   int val = 0;
   
-  if(val = 0)
+  if(val = 0)   //still valid in C++, but we actually want a boolean expression but not an arithmetic expression interpreted to a boolean value
     cout<<"val is 0."<<endl;
   else
     cout<<"val is not 0."<<endl;
