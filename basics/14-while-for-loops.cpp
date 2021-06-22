@@ -96,7 +96,7 @@ write a program that reads grades of students in a class, and prints the average
 
 example
 please enter the number of students in the class: 4
-enter the students' grades (separated by a space): 71 86 68 94
+enter the students grades (separated by a space): 71 86 68 94
 the class average is 79.75
   
   
@@ -128,3 +128,9 @@ int main() {
 }
  
   
+Revision: Computing the Average
+problem
+write a program that reads a sequence of grades (till -1 is entered), and prints the average.
+  
+example
+enter the grades separated by a space. end your sequence by typing -1: 71 86 68 94 -1
