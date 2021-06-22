@@ -67,9 +67,24 @@ int main() {
 }
  
   
-Revision: Computing the Average
+Revision: Computing the Average  - we do not know how many numbers(students) will be in counting.
 problem
 write a program that reads a sequence of grades (till -1 is entered), and prints the average.
   
 example
 enter the grades separated by a space. end your sequence by typing -1: 71 86 68 94 -1
+the class average is 79.75
+  
+  
+#include <iostream> 
+using namespace std;
+
+int main() {
+  int numOfStudents;
+  int count;
+  int curr, sum;
+  double average;
+  
+  
+    return 0;
+}
