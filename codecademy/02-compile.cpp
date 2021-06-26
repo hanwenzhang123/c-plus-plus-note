@@ -20,7 +20,7 @@ Compile: A computer can only understand machine code.
   
 The compiler will then translate the C++ program hello.cpp and create a machine code file called a.out.
 Execute: To execute the new machine code file, all you need to do is type ./ and the machine code file name in the terminal:  ./a.out
-The executable file will then be loaded to computer memory and the computer’s CPU (Central Processing Unit) executes the program one instruction at a time.
+The executable file will then be loaded to computer memory and the computer CPU (Central Processing Unit) executes the program one instruction at a time.
 
   
   Compile: Sometimes when we compile, we want to give the output executable file a specific name. 
@@ -30,6 +30,6 @@ g++ hello.cpp -o hello
 The compiler will then translate the C++ program hello.cpp and create a machine code file called hello.
   
 Execute: To execute the new machine code file, all you need to do is type ./ and the machine code file name in the terminal:  ./hello
-The executable file will then be loaded to computer memory and the computer’s CPU will execute the program one instruction at a time.
+The executable file will then be loaded to computer memory and the computer CPU will execute the program one instruction at a time.
   
     
