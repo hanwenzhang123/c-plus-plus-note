@@ -5,6 +5,7 @@ Functions can also have two kinds of outputs:
 - side effects, such as something printed to the screen,
 - return values, a value that is passed back to our program that we can use or store for later.
   
+//code
 #include <cs50.h>
 #include <stdio.h>
 
