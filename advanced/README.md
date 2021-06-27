@@ -6,12 +6,10 @@ https://www.edx.org/course/advanced-programming-in-c
 using namespace std;
 
 int main() {
-  int num;
-  
-  cout<<"Please enter: "<<endl;
-  cin>>inputChar;
-
-  cout<<inputChar<<endl;
+  double a, b, c;
+  cout<<"Please enter coefficients of quadratic equation:\n";
+  cin>>a>>b>>c;
+  cout<<"The equation: "<<a<<"x^2 + "<<b<<"x + "<<c<<" = 0"<<endl;
   
   return 0;
 }
