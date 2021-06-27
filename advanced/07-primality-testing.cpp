@@ -40,7 +40,7 @@ Primality Testing: Solution 3   //square root value
 bool isPrime(int num){
   int countDivs;
   countDivs = 0;
-  for(int i=1; i<= sqrt(num); i++){   // sqrt(100) = 10
+  for(int i=1; i<= sqrt(num); i++){   // sqrt(100) = 10  - square root of 100 equals to 10
     if(num % i == 0)
       countDivs++;
   }
