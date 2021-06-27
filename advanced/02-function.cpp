@@ -1,6 +1,7 @@
 Flow of a program that calls functions
 int num -> factorial -> int(num!)
   
+//n-choose-k
 int main() {
   int n, k, nFact, kFact, n_kFact, k_comb;
   cout<<"Please enter n and k (k<=n): "<<endl;
