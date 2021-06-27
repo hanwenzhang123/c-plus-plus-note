@@ -17,11 +17,10 @@ int main() {
   string str;
   
   str = "abc";
-  cout<<str + "def";
+  cout<<str + "def";    //abcdef
   
   retutrn 0;
 }
-//abcdef
 
 
 Reading Strings
@@ -29,9 +28,9 @@ Reading Strings
 int main() {
   string str;
   
-  cout<<"Please enter your name "<<endl;
-  //cin>>str;
-  getline(cin, str);
+  cout<<"Please enter your name "<<endl;   //Donald Duck
+  //cin>>str;       //Donald -> cin will only print first line before the first space
+  getline(cin, str);   //entire line, from first line cin to the entire str, and print str
   
   cout<<str<<endl;
   
