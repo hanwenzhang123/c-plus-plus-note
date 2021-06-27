@@ -9,6 +9,8 @@ Style
   Differences in style don’t affect the correctness or meaning of our code, but affect how readable it is visually.
 
 To run our program, we’ll use a CLI, or command-line interface
+//  make hello  ->  a command called make then hello.c file with our source code
+//  ./hello  -> looks in the current folder, ., for a program called hello, and runs it
 
 source code - complier - machine code
 A program called a compiler will take source code as input and produce machine code as output. 
