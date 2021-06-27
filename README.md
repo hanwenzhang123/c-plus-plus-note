@@ -14,3 +14,22 @@ int main() {
   return 0;
 }
 ```
+```
+#include <iostream> 
+#include<string>
+using namespace std;
+
+int main() {
+  int x;
+  double y;
+  s = "Hello";
+  
+  cout<<s<<endl;
+  
+  cout<<s + " world"<<endl;
+  
+  s = s + "world";
+  
+  return 0;
+}
+```
