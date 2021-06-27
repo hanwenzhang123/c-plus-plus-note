@@ -5,6 +5,7 @@ Reading cin
 Indexing: str[i]
 Slicing: str.substr(ind, len) //a method
 Length: str.length()  //the number of the string
+Comparing: ==, !=, <, >, <=, >=
 
 
 Initializing & Concatenating Strings
@@ -72,3 +73,26 @@ int main() {
   retutrn 0;
 }
    
+
+Comparing Strings & Lexicographic Order
+
+int main() {
+  string str1, str2;
+  
+  str1 = "abc";
+  str2 = "de";
+  
+  if(str1<str2)
+        cout<<str<<" is smaller than "<<str2<<endl; 
+  else
+        cout<<str<<" is not smaller than "<<str2<<endl;
+  
+  return 0;
+}
+//abc is smaller than de
+//comparing string is not based on the size but alphabetic order
+  
+abcdefg
+abcdxyz
+//here we compare to 'e' and 'x' in this case 'e' is less than 'x'
+  
