@@ -1,3 +1,14 @@
+parameter passing
+two ways to pass parameters to a function:
+- call-by-value
+syntax: void func(int x)
+semantics: when passing by value, the argument is evaluated and its value is passed
+  
+- call-by-reference
+syntax: void func(int& x)
+semantics: when passing by reference, a reference to the argument memory location is passed
+  
+
 //example 1
 int main(){
   int n=3;
@@ -16,17 +27,6 @@ Before func: 3
 Inside func: 4
 After func: 3
   
-  
-  
-parameter passing
-two ways to pass parameters to a function:
-- call-by-value
-syntax: void func(int x)
-semantics: when passing by value, the argument is evaluated and its value is passed
-  
-- call-by-reference
-syntax: void func(int& x)
-semantics: when passing by reference, a reference to the argument memory location is passed
   
 //example 2 
 int main(){
