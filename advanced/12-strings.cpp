@@ -1,11 +1,12 @@
-Initializing = 
-Concatenating + 
-Reading cin
+Initializing: = 
+Concatenating: + 
+Reading: cin
         getline(cin, str)
 Indexing: str[i]
 Slicing: str.substr(ind, len) //a method
 Length: str.length()  //the number of the string
 Comparing: ==, !=, <, >, <=, >=
+Searching: str.find(s)
 
 
 Initializing & Concatenating Strings
@@ -95,4 +96,27 @@ int main() {
 abcdefg
 abcdxyz
 //here we compare to 'e' and 'x' in this case 'e' is less than 'x'
+  
+
+Searching in a String
+Searching: str.find(s)
+        
+main(){
+  string str = "abcdbcdefg";
+        
+  cout<<str.find("de")<<endl;
+        
+  if(str.find("xyz") == string::npos)
+     cout<<"Not Found"<<endl;
+  else
+     cout<<"Found"<<endl;
+        
+  cout<<str.find("cd");
+  cout<<str.find("cd", 3);
+          
+  return 0;
+}
+// 6
+// Not Found
+// 2
   
