@@ -6,23 +6,17 @@ int num -> factorial -> int(num!)
 using namespace std;
 
 int factorial(int num); // #1 declare the function is expected to get one single argument of type integer and return an integer with a value
-int kCombinations(int n, int k);
 
 int main() {
-  int n, k,  k_comb;
+  int n, k, nFact, kFact, n_kFact, k_comb;
   cout<<"Please enter n and k (n>=k): "<<endl;
   cin>>n>>k; 
-  k_comb = kCombinations(n, k);
-  cout<<n<<" choose "<<k<<" is "<<k_comb<<endl;
-  return 0;
-}
-
-kCombinations(int n, int k){
-  int nFact, kFact, n_kFact,
   nFact = factorial(n);
   kFact = factorial(k);
   n_kFact = factorial(n-k);   
-  return (nFact / (kFact*n_kFact));
+  k_comb = nFact / (kFact*n_kFact);
+  cout<<n<<" choose "<<k<<" is "<<k_comb<<endl;
+  return 0;
 }
 
 int factorial(int num){
