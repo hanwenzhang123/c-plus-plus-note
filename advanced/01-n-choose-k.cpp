@@ -26,15 +26,15 @@ int main() {
   cout<<"Please enter n and k (k<=n): "<<endl;
   cin>>n>>k;
 
-  nFact = 1;    //nFact = factorial(n)
+  nFact = 1;
   for (i=1; i<=n; i++)
     nFact *= i;     //multiply up to n
     
-  kFact = 1;    //nFact = factorial(k)
+  kFact = 1; 
   for (i=1; i<=k; i++)
     kFact *= i;     //multiply up to k
     
-  n_kFact = 1;  //nFact = factorial(n-k)
+  n_kFact = 1;
   for (i=1; i<=n-k; i++)
     n_kFact *= i;  //multiply up to n-k
     
