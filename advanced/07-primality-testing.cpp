@@ -8,7 +8,6 @@ definition: let num >= 2 be an integer, and let d and k be two divisors of num. 
 example: 4 and 25 are complementary divisors of 100; 5 and 20 are complementary divisors of 100
   
   
-//Runtime Analysis
 Primality Testing: Solution 1
 bool isPrime(int num){
   int countDivs;
