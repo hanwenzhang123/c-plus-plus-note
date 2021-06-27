@@ -39,7 +39,7 @@ int main() {
     n_kFact *= i;  //multiply up to n-k
     
   k_comb = nFact / (kFact*n_kFact);
-  cout<<n<<" choose "<<k<<" is "k_comb<<endl;
+  cout<<n<<" choose "<<k<<" is "<<k_comb<<endl;
   return 0;
 }
      
