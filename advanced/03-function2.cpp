@@ -6,7 +6,7 @@ int factorial(int num); // #1 declare the function is expected to get one single
 int kCombinations(int n, int k);
 
 int main() {
-  int n, k,  k_comb;
+  int n, k, k_comb;
   cout<<"Please enter n and k (n>=k): "<<endl;
   cin>>n>>k; 
   k_comb = kCombinations(n, k);
@@ -15,7 +15,7 @@ int main() {
 }
 
 kCombinations(int n, int k){    //new function
-  int nFact, kFact, n_kFact,
+  int nFact, kFact, n_kFact;
   nFact = factorial(n);
   kFact = factorial(k);
   n_kFact = factorial(n-k);   
