@@ -2,10 +2,11 @@
 https://www.edx.org/course/advanced-programming-in-c
 ```cpp
 #include <iostream> 
+#include <cmath> 
 using namespace std;
 
 int main() {
-  char inputChar;
+  int num;
   
   cout<<"Please enter: "<<endl;
   cin>>inputChar;
