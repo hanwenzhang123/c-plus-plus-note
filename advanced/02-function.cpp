@@ -2,18 +2,27 @@ Flow of a program that calls functions
 int num -> factorial -> int(num!)
   
 //n-choose-k
+#include <iostream> 
+using namespace std;
+
+int factorial(int num); // #1 declare the function is expected to get one single argument of type integer and return an integer with a value
+int kCombinations(int n, int k);
+
 int main() {
-  int n, k, nFact, kFact, n_kFact, k_comb;
-  cout<<"Please enter n and k (k<=n): "<<endl;
-  cin>>n>>k;
-  
-  nFact = factorial(n)
-  kFact = factorial(k)
-  n_kFact = factorial(n-k) 
-    
-  k_comb = nFact / (kFact*n_kFact);
+  int n, k,  k_comb;
+  cout<<"Please enter n and k (n>=k): "<<endl;
+  cin>>n>>k; 
+  k_comb = kCombinations(n, k);
   cout<<n<<" choose "<<k<<" is "<<k_comb<<endl;
   return 0;
+}
+
+kCombinations(int n, int k){
+  int nFact, kFact, n_kFact,
+  nFact = factorial(n);
+  kFact = factorial(k);
+  n_kFact = factorial(n-k);   
+  return (nFact / (kFact*n_kFact));
 }
 
 int factorial(int num){
@@ -23,6 +32,6 @@ int factorial(int num){
   for (i=1, i<=num; i++)
     factRes *= i;
   
-  return factRes;
+  return factRes;   //return not print, if print we can not assign it to a variable
 }
 
