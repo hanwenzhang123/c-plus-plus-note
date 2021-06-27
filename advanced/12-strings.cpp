@@ -100,26 +100,28 @@ abcdxyz
   
 
 Searching in a String / from Starting Index
+// return the position of first appearance
 Searching: str.find(s)
           str.find(s, startInd) //from starting index
         
 main(){
   string str = "abcdbcdefg";
         
-  cout<<str.find("de")<<endl;
+  cout<<str.find("de")<<endl; //searching for de in str, it prints '6' because of its location
         
-  if(str.find("xyz") == string::npos)
+  if(str.find("xyz") == string::npos) //string::npos -> not exist in str
      cout<<"Not Found"<<endl;
   else
      cout<<"Found"<<endl;
         
-  cout<<str.find("cd");         //searching in a string
-  cout<<str.find("cd", 3);      //searching in a string from starting index
+  cout<<str.find("cd");  //searching in a string, 2
+  cout<<str.find("cd", 3);  //searching in a string from starting index (after index 3 here), 5
           
   return 0;
 }
 // 6
 // Not Found
 // 2
-  
+// 5
            
+   
