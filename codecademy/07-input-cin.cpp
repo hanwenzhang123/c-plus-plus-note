@@ -17,3 +17,7 @@ int main() {
   std::cout << "You paid " << tip << " dollars.\n";
   
 }
+
+$ g++ tip.cpp
+$ ./a.out
+Enter a tip amount: 
