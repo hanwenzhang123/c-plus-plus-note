@@ -7,6 +7,12 @@ char: individual characters
 string: a sequence of characters
 bool: true/false values
 
+int age = 28;
+double price = 8.99;
+char grade = 'A';
+std::string message = "Game Over";
+bool late_to_work = true;
+
 "Every variable in C++ must be declared before it can be used!"
 
 Before we can use a variable, we must declare, or create, it. To declare a variable, we need to provide two things:
@@ -38,3 +44,16 @@ score = 0;
 $ g++ variable.cpp
 $ ./a.out
   
+  
+const (constant) variables cannot be changed by your program during execution.
+const double quarter = 0.25;
+// and now variable quarter can only be 0.25
+
+
+double weight1;
+int weight2;
+ 
+weight1 = 154.49;
+weight2 = (int) weight1;
+ 
+// weight2 is now 154
