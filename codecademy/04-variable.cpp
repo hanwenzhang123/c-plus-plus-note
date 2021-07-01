@@ -33,19 +33,6 @@ score = 0;
 // Declare and initialize a variable here
    int year = 2019;
   
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$ g++ variable.cpp
+$ ./a.out
   
