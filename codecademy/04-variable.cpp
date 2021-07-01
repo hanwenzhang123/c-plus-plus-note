@@ -1,4 +1,6 @@
 A variable is simply a name that represents a particular piece of your computer’s memory that has been set aside for you to store, retrieve, and use data.
+  A vairable is used for storinng data
+  
 int: integer numbers
 double: floating-point numbers
 char: individual characters
