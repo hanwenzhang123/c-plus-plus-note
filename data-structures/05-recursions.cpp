@@ -14,3 +14,4 @@ P(2)->P(3)       P(3)
 P(3)->P(4)       P(4)
   
 //mathematical induction example
+ 
