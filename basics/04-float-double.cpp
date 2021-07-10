@@ -12,6 +12,11 @@ C++ literals:
 Arithmetic Operators: +, -, *, / (real division), =
   
   
+  int - 5
+  float - pi
+  double - 12.21
+  
+  
 int main() {
   int x;
   double y;
